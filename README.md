@@ -43,8 +43,6 @@ The site features:
 
 ---
 
-## 📷 Gallery
-*(Add your product images here)*
 
 ---
 
