@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ntozini</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<bod>
+  <header class="main-header">
+    <div class="nav-container">
+      <div class="logo"><img src="./images/ChatGPT Image Aug 12, 2025, 11_18_46 PM.png" alt="XESI Logo" class="logo-img"></div>
+      <div class="logo"><imag src="./images/ChatGPT Image Aug 12, 2025, 11_18_46 PM.png"> </div>
+      
+      <!-- Hamburger toggle -->
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      
+      <nav class="main-nav" id="navMenu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          |
+          <li><a href="#about">About</a></li>
+          |
+          <li><a href="#products">Products & Services</a></li>
+          |
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+  
+<section style="padding: 80px; margin-top: -40px;" id="home" class="home-section">
+  <div class="home-overlay">
+    <div class="home-content">
+      <h1>Welcome to XESI CHICKEN FARM</h1>
+      <p>Supplying Quality Processed Meat & Grade A Eggs</p>
+      <a href="#contact" class="cta-btn">Get in Touch</a>
+
+    </div>
+    
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="section about" style="margin-top: -50px;">
+  <div class="container">
+    <h2 style="margin-top: 80;">About Us</h2>
+    <p>XESI CHICKEN Farmers is a poultry business founded by Lona Ntozini in Bokleni A/A, Ngcobo. We are dedicated to producing and supplying high-quality eggs and chicken (layers) to meet the growing demand in rural and nearby town markets.</p>
+
+
+      <h3 style="text-align: center;"> 🎯Our Mission </h3>
+			<p >To empower rural food systems by providing nutritious poultry products while creating economic opportunities for women and youth in agriculture.</p>
+    <h3 style="text-align: center;"> 🌟Our Vision</h3>
+		<p>To become a trusted name in poultry production across the Eastern Cape through sustainable farming, innovation, and strong community partnerships.</p>
+  </div>
+</section>
+
+ 
+<!-- Products & Services Section -->
+<section id="products" class="products-section">
+  <div class="container">
+    <h2 style="color: green; margin-top: -50px">Our Products & Services</h2>
+    <p>We specialize in the sale of live broiler chickens raised in a clean and healthy environment.</p>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="./images/chicken-4574489_1280.jpg" alt="Broiler Chickens">
+        <h3>Broiler Chickens</h3>
+        <p>Healthy broilers raised with care, perfect for consumption or resale.</p>
+        <p class="price">Price: R100 – R125</p>
+      </div>
+
+      <div class="product-card">
+        <img src="./images/pexels-tima-miroshnichenko-6169650.jpg" alt="Delivery Service">
+        <h3>Delivery Service</h3>
+        <p>We offer local delivery within Bokleni and surrounding areas for bulk orders.</p>
+        <p class="price">Available on request</p>
+      </div>
+
+      <div class="product-card">
+        <img src="./images/eggs-2660420_1280.jpg" alt="Bulk Sales">
+        <h3>Bulk Orders</h3>
+        <p>Discounted pricing for farmers, small businesses, and repeat customers.</p>
+        <p class="price">Contact for quote</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact">
+  <div class="container">
+    <h2 style="margin-top: -40px;">Contact Us</h2>
+
+    <div class="contact-wrapper">
+      <!-- Contact Form (left side) -->
+      <form action="#" method="post" class="contact-form" style="margin-left: 80px;">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+
+      <!-- Contact Info (right side) -->
+      <div class="contact-info">
+        <strong>Name:</strong> Lona Ntozini
+        <p>📍 Bokleni A/A, Ngcobo, 5050</p>
+        <p>📧 Email: <a href="lonantozini@gmail.com">lonantozini@gmail.com</a></p>
+        <p>📞<strong>Phone:</strong> 0604122380</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 Mxesibe’s Poultry Farm. All rights reserved.</p>
+  </div>
+  <div class="social-icons">
+    <a href="https://facebook.com" target="_blank"><img src="https://img.icons8.com/fluency/40/facebook-new.png" alt="Facebook"></a>
+    <a href="https://tiktok.com" target="_blank"><img src="https://img.icons8.com/fluency/40/tiktok--v1.png" alt="TikTok"></a>
+    <a href="https://instagram.com" target="_blank"><img src="https://img.icons8.com/fluency/40/instagram-new.png" alt="Instagram"></a>
+  </div>
+</footer>
+<a href="https://wa.me/27687273403" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
+</a>
+
+<script>
+  function toggleMenu() {
+    const navMenu = document.getElementById("navMenu");
+    navMenu.classList.toggle("show");
+  }
+</script>
+
+
+</body>
+</html>
